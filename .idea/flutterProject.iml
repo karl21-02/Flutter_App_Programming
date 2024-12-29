@@ -21,6 +21,27 @@
       <excludeFolder url="file://$MODULE_DIR$/listview_example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/listview_example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/listview_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/http_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/http_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/http_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/largefile_download/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/largefile_download/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/largefile_download/build" />
+      <excludeFolder url="file://$MODULE_DIR$/internal_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/internal_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/internal_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fileio_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fileio_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fileio_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/subpage/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/subpage/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/subpage/build" />
+      <excludeFolder url="file://$MODULE_DIR$/todo_list/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/todo_list/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/todo_list/build" />
+      <excludeFolder url="file://$MODULE_DIR$/widget_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/widget_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/widget_example/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
