@@ -6,6 +6,7 @@ import 'package:todo_list/secondDetail.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+
   static const String _title = 'Widget Example';
 
   @override

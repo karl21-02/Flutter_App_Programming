@@ -8,9 +8,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "SubPage Example",
+      title: 'SubPage Example',
       theme: ThemeData(
-        primarySwatch: Colors.brown,
+        primarySwatch: Colors.blue,
       ),
       initialRoute: '/',
       routes: {
@@ -23,36 +23,40 @@ class MyApp extends StatelessWidget {
 
 class FirstPage extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => _FirstPage();
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    return _FirstPage();
+  }
 }
 
 class _FirstPage extends State<FirstPage> {
   @override
   Widget build(BuildContext context) {
+    // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sub Page Main"),
+        title: Text('Sub Page Main'),
       ),
       body: Container(
         child: Center(
           child: Text('첫 번째 페이지'),
         ),
       ),
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            Navigator.of(context)
-                .pushNamed('/second');
-          },
-          child: Icon(Icons.add),
-        )
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.of(context)
+              .pushNamed('/second');
+        },
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
 
+
 class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       appBar: AppBar(
         title: Text('Second Page'),
@@ -63,7 +67,7 @@ class SecondPage extends StatelessWidget {
             onPressed: () {
               Navigator.of(context).pop();
             },
-            child: Text("돌아가기"),
+            child: Text('돌아가기'),
           ),
         ),
       ),

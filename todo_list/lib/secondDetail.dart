@@ -10,24 +10,22 @@ class SecondDetail extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Scond Page'),
+        title: Text('Second Page'),
       ),
       body: Container(
-        child: Center(
-          child: Column(
-            children: <Widget>[
-              TextField(
-                controller: controller,
-                keyboardType: TextInputType.text,
-              ),
-              ElevatedButton(
-                onPressed: () {
-                  Navigator.of(context).pop(controller.value.text); // 이전 화면으로 돌아가며 반환값은 controller.value.text!ㅑ
-                },
-                child: Text('저장하기'),
-              ),
-            ],
-          ),
+        child: Column(
+          children: [
+            TextField(
+              controller: controller,
+              keyboardType: TextInputType.text,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pop(controller.value.text);
+              },
+              child: Text('저장하기'),
+            ),
+          ],
         ),
       ),
     );
