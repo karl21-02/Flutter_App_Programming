@@ -42,6 +42,21 @@
       <excludeFolder url="file://$MODULE_DIR$/widget_example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/widget_example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/widget_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/fileio_exmaple/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/fileio_exmaple/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/fileio_exmaple/build" />
+      <excludeFolder url="file://$MODULE_DIR$/intro_exmaple/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/intro_exmaple/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/intro_exmaple/build" />
+      <excludeFolder url="file://$MODULE_DIR$/animation_exmaple/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/animation_exmaple/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/animation_exmaple/build" />
+      <excludeFolder url="file://$MODULE_DIR$/native_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/native_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/native_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/firebase_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/firebase_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/firebase_example/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
